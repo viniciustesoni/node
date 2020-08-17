@@ -12,5 +12,8 @@
       "bugs": {
         "url": "https://github.com/viniciustesoni/node/issues"
       },
-      "homepage": "https://github.com/viniciustesoni/node"
+      "homepage": "https://github.com/viniciustesoni/node",
+      "dependencies": {
+        "express": "^4.16.1"
+      }
 }
