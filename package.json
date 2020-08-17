@@ -1,0 +1,16 @@
+{
+    "name": "vini-node",
+    "version": "1.0.0",
+    "main": "server.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/viniciustesoni/node.git"
+      },
+      "keywords": [],
+      "author": "Vinicius Tesoni",
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/viniciustesoni/node/issues"
+      },
+      "homepage": "https://github.com/viniciustesoni/node"
+}
