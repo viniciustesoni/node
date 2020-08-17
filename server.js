@@ -8,7 +8,7 @@ const HOST = '0.0.0.1';
 //APP
 const app = express();
 app.use(express.static('public'))
-app.get('/',(res,res)=>{
+app.get('/',(req,res)=>{
     res.sendFile(path.join(__dirname+'/index.html'));
 });
 
