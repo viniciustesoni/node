@@ -1,16 +1,11 @@
-const express = require("express");
-const path = require("path");
+const express = require('express')
+const app = express()
+const port = 8081
 
-//CONSTS
-const PORT = 8081;
-const HOST = 'localhost';
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
 
-//APP
-const app = express();
-app.use(express.static('public'))
-app.get('/',(req,res)=>{
-    res.sendFile(path.join(__dirname + '/index.html'));
-});
-
-app.listen(PORT,HOST);
-console.log(`Running on http://${HOST}:${PORT}`);
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
